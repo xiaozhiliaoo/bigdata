@@ -47,6 +47,7 @@ public class WordCount {
         public TokenizerMapper() {
         }
 
+        @Override
         public void map(Object key, Text value, Mapper<Object, Text, Text, IntWritable>.Context context) throws IOException, InterruptedException {
             StringTokenizer itr = new StringTokenizer(value.toString());
             while (itr.hasMoreTokens()) {
@@ -62,6 +63,7 @@ public class WordCount {
         public IntSumReducer() {
         }
 
+        @Override
         public void reduce(Text key, Iterable<IntWritable> values, Reducer<Text, IntWritable, Text, IntWritable>.Context context) throws IOException, InterruptedException {
             int sum = 0;
             IntWritable val;

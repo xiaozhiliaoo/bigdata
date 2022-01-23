@@ -1,0 +1,15 @@
+apache-hive-3.1.2-bin.tar.gz
+apache-maven-3.6.3-bin.zip
+eclipse-4.7.0-linux.gtk.x86_64.tar.gz
+flink-1.9.1-bin-scala_2.11.tgz
+hadoop-3.1.3.tar.gz
+hbase-2.2.2-bin.tar.gz
+jdk-8u162-linux-x64.tar.gz
+kafka_2.11-0.10.2.0.tgz
+mongo-java-driver-3.12.1.jar
+mysql-connector-java-5.1.40.tar.gz
+redis-5.0.5.tar.gz
+sbt-1.3.8.tgz
+SecurAble.rar
+spark-2.4.0-bin-without-hadoop.tgz
+spark-streaming-kafka-0-8_2.11-2.4.0.jar
