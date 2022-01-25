@@ -114,6 +114,29 @@
             <scope>test</scope>
         </dependency>
 
+        <!--kafka producer -->
+        <dependency>
+            <groupId>org.apache.flume.flume-ng-sinks</groupId>
+            <artifactId>flume-ng-kafka-sink</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.flume.flume-ng-sources</groupId>
+            <artifactId>flume-kafka-source</artifactId>
+            <version>1.9.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.storm</groupId>
+            <artifactId>storm-kafka</artifactId>
+            <version>1.2.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+
 
 
         <!--test -->
